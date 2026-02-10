@@ -105,25 +105,28 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu */}
-            {isOpen && (
-                <div className="md:hidden bg-white dark:bg-secondary border-t border-gray-100 dark:border-gray-800">
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        {navLinks.map((link) => (
-                            <Link
-                                key={link.path}
-                                to={link.path}
-                                onClick={() => setIsOpen(false)}
-                                className={`block px-3 py-2 rounded-md text-base font-medium ${isActive(link.path)
-                                    ? 'text-primary'
-                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800'
-                                    }`}
-                            >
-                                {link.name}
-                            </Link>
-                        ))}
-                    </div>
+            <div
+                className={`md:hidden absolute top-16 left-0 w-full bg-white/80 dark:bg-secondary/80 backdrop-blur-xl border-y-2 border-[#C5A57D] shadow-xl transition-all duration-300 ease-in-out origin-top ${isOpen
+                    ? 'opacity-100 translate-y-0 visible'
+                    : 'opacity-0 -translate-y-2 invisible'
+                    }`}
+            >
+                <div className="px-4 py-6 space-y-3">
+                    {navLinks.map((link) => (
+                        <Link
+                            key={link.path}
+                            to={link.path}
+                            onClick={() => setIsOpen(false)}
+                            className={`block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${isActive(link.path)
+                                ? 'text-[#C5A57D] bg-[#C5A57D]/10'
+                                : 'text-gray-700 dark:text-gray-200 hover:text-[#C5A57D] hover:bg-[#C5A57D]/10 hover:pl-6'
+                                }`}
+                        >
+                            {link.name}
+                        </Link>
+                    ))}
                 </div>
-            )}
+            </div>
         </nav>
     );
 };

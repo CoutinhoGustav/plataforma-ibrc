@@ -37,7 +37,7 @@ const QuemSomos = () => {
                             Nossa caminhada começou em meados de 1984, fruto da dedicação e fé do irmão Juraci e sua família. As primeiras reuniões, simples e repletas de propósito, aconteciam nas salas das casas da vizinhança, unindo pessoas em oração e louvor.
                         </p>
 
-                        <div className="bg-gray-50 dark:bg-secondary/20 p-8 rounded-[30px] border border-gray-100 dark:border-gray-800 shadow-sm transition-all hover:shadow-md">
+                        <div class="bg-gray-50 dark:bg-secondary/20 p-8 rounded-[30px]  border border-gray-100 border-[#C5A57D] shadow-sm transition-all hover:shadow-md">
                             <p className="italic font-medium text-secondary dark:text-primary mb-4 text-xl">
                                 "No ano de 1985, recebemos a benção de um terreno para fundarmos nossa sede acadêmica e espiritual."
                             </p>
