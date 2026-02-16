@@ -28,7 +28,7 @@ const Home = () => {
                     <p className="text-lg md:text-xl mb-8 md:ml-3 leading-relaxed text-justify opacity-90 max-w-xl">
                         Somos a Igreja Batista Regular do Calvário do Distrito Federal. Uma comunidade dedicada ao ensino fiel das Escrituras e à comunhão mútua.
                         <br /><br />
-                        Programações: Quartas-Feiras às 20H, Sextas-Feiras às 19H30 e Domingo às 9H30 e 19H.
+                        Programações: Quarta-Feira às 20H, Sexta-Feira/Sábado às 19H30/16H30 e Domingo às 9H30 e 19H.
                     </p>
                     
                 </div>
