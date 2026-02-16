@@ -22,15 +22,19 @@ const Home = () => {
             <section className="section-content !py-12 md:!py-32">
                 {/* Content */}
                 <div className="flex-1 text-center md:text-left animate-hero-content z-10">
-                    <h1 className="text-[36px] md:text-[48px] font-bold mb-6 md:ml-3 leading-tight">
+                    <h1 className="text-4xl md:text-5xl font-bold mb-6 md:ml-3 leading-tight">
                         Sejam Bem-Vindos à <span className="text-secondary dark:text-primary">IBRC!</span>
                     </h1>
-                    <p className="text-[18px] md:text-[20px] mb-8 md:ml-3 leading-relaxed text-justify opacity-90 max-w-xl">
+                    <p className="text-lg md:text-xl mb-8 md:ml-3 leading-relaxed text-justify opacity-90 max-w-xl">
                         Somos a Igreja Batista Regular do Calvário do Distrito Federal. Uma comunidade dedicada ao ensino fiel das Escrituras e à comunhão mútua.
                         <br /><br />
                         Programações: Quartas-Feiras às 20H, Sextas-Feiras às 19H30 e Domingo às 9H30 e 19H.
                     </p>
-                    
+                    <div className="flex justify-center md:justify-start md:ml-3">
+                        <button className="btn-primary px-10 py-4 text-xl">
+                            Saiba Mais
+                        </button>
+                    </div>
                 </div>
 
                 {/* Hero Carousel */}

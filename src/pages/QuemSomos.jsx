@@ -24,11 +24,11 @@ const QuemSomos = () => {
                 {/* Story Content */}
                 <div className="flex-1 animate-hero-content order-2 md:order-1 px-4 lg:px-8">
 
-                    <h1 className="text-[42px] md:text-[52px] font-bold mb-8 leading-tight">
+                    <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
                         Nossa <span className="text-secondary dark:text-primary">História</span>
                     </h1>
 
-                    <div className="text-[18px] md:text-[20px] space-y-8 text-justify leading-relaxed opacity-90 max-w-2xl">
+                    <div className="text-lg md:text-xl space-y-8 text-justify leading-relaxed opacity-90 max-w-2xl">
                         <p className="font-medium text-lg leading-relaxed border-l-4 border-primary pl-6">
                             A Igreja Batista Regular do Calvário do Distrito Federal tem raízes profundas na comunidade de Ceilândia.
                         </p>

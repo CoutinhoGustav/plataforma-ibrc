@@ -3,6 +3,5 @@ dist
 .vscode
 .gemini
 *.local
-.qodozação
-
+.qodo
 files.txt

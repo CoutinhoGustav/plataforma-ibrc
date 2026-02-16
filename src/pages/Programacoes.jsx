@@ -37,7 +37,7 @@ const Programacoes = () => {
             <section className="section-content !items-center !pt-16 !pb-20 md:!pt-24 md:!pb-32">
                 {/* Content */}
                 <div className="flex-1 animate-hero-content px-4 lg:px-8">
-                    <h1 className="text-[42px] md:text-[52px] font-bold mb-10 leading-tight">
+                    <h1 className="text-5xl md:text-6xl font-bold mb-10 leading-tight">
                         Nossas <span className="text-secondary dark:text-primary">Programações</span>
                     </h1>
 
@@ -54,7 +54,7 @@ const Programacoes = () => {
                         ))}
                     </div>
 
-                    <p className="text-[18px] md:text-[20px] mb-10 opacity-90 leading-relaxed max-w-2xl text-justify">
+                    <p className="text-lg md:text-xl mb-10 opacity-90 leading-relaxed max-w-2xl text-justify">
                         Acompanhe nossas atividades semanais e participe conosco. Estamos de braços abertos para receber você e sua família em nossos cultos e estudos.
                     </p>
 

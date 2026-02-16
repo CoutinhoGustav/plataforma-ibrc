@@ -7,6 +7,19 @@
 :root {
   --primary: #C5A57D;
   --secondary: #42000B;
+  font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1536px) {
+  :root {
+    font-size: 20px;
+  }
 }
 
 @layer base {
