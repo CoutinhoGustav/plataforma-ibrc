@@ -57,7 +57,7 @@ const Navbar = () => {
                         {/* Theme Toggle */}
                         <button
                             onClick={() => setIsDark(!isDark)}
-                            className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors opacity-0 animate-navbar"
+                            className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-red-800 transition-colors opacity-0 animate-navbar"
                             aria-label="Toggle theme"
                         >
                             {isDark ? (
