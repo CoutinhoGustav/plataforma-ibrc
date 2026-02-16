@@ -4,7 +4,7 @@ import ProtectedImage from '../components/ProtectedImage';
 const Home = () => {
     const slides = [
         { src: "/img/hero-img.png", alt: "IBRC Vista Exterior" },
-        { src: "/img/slide_1.png", alt: "Nossa Congregação" },
+        { src: "/img/slide_2.png", alt: "Nossa Congregação" },
         { src: "/img/slide 4.jpeg", alt: "Comunidade IBRC" }
     ];
 
