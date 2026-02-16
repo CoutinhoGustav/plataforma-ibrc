@@ -55,7 +55,7 @@ const Programacoes = () => {
                     </div>
 
                     <p className="text-lg md:text-xl mb-10 opacity-90 leading-relaxed max-w-2xl text-justify">
-                        Acompanhe nossas atividades semanais e participe conosco. Estamos de braços abertos para receber você e sua família em nossos cultos e estudos.
+                        Acompanhe nossas atividades semanais e participe conosco. Estamos de braços abertos para receber você e sua família em nossos cultos e programações.
                     </p>
 
                     <div className="flex justify-center md:justify-start">
