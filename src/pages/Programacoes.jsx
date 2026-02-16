@@ -34,7 +34,7 @@ const Programacoes = () => {
 
     return (
         <div className="min-h-screen transition-colors duration-300">
-            <section className="section-content !items-center !pt-16 !pb-20 md:!pt-24 md:!pb-32">
+            <section className="section-content !items-start !pt-16 !pb-20 md:!pt-24 md:!pb-32">
                 {/* Content */}
                 <div className="flex-1 animate-hero-content px-4 lg:px-8">
                     <h1 className="text-5xl md:text-6xl font-bold mb-10 leading-tight">
@@ -69,7 +69,7 @@ const Programacoes = () => {
                 </div>
 
                 {/* Carousel Container */}
-                <div className="flex-1 w-full max-w-xl flex justify-center items-center relative animate-hero-content mt-16 md:-mt-12">
+                <div className="flex-1 w-full max-w-xl flex justify-center items-center relative animate-hero-content mt-16 md:mt-0">
                     <div className="relative w-full aspect-[4/3] rounded-[40px] overflow-hidden shadow-2xl border-4 border-primary dark:border-secondary transition-all hover:scale-[1.02] duration-500">
                         {slides.map((slide, index) => (
                             <div
