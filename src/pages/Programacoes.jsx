@@ -6,7 +6,7 @@ const Programacoes = () => {
 
     const schedules = [
         { title: "Culto de Oração", day: "Quarta-Feira", time: "20H" },
-        { title: "Mocidade", day: "Sextas-Feira", time: "18H" },
+        { title: "Mocidade", day: "Sexta-Feira / Sábado", time: "19H30/16H30" },
         { title: "Escola Bíblica Dominical", day: "Domingo", time: "9H30" },
         { title: "Culto Evangelístico", day: "Domingo", time: "19H" },
     ];
