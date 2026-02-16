@@ -76,7 +76,7 @@ const Navbar = () => {
                     <div className="md:hidden flex items-center space-x-4">
                         <button
                             onClick={() => setIsDark(!isDark)}
-                            className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                            className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-red-800 transition-colors"
                         >
                             {isDark ? (
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
