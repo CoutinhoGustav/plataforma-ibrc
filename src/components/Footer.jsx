@@ -10,7 +10,7 @@ const Footer = () => {
                             IBRC<span className="text-primary"></span>
                         </span>
                     </div>
-                    <div className="text-gray-600 dark:text-gray-400 text-sm">
+                    <div className="text-white-600 dark:text-white-400 text-sm">
                         © {new Date().getFullYear()} Igreja Batista Regular do Calvário. Todos os direitos reservados.
                     </div>
                 </div>
