@@ -8,7 +8,36 @@
   <meta name="description"
     content="Igreja Batista Regular do Calvário do Distrito Federal - Pregando a Palavra desde 1984. Participe de nossas programações semanais." />
   <title>IBRC - Igreja Batista Regular do Calvário</title>
+  <script>
+    (function () {
+      const titles = {
+        '/': 'IBRC - Igreja Batista Regular do Calvário',
+        '/programacoes': 'Programações - IBRC',
+        '/quem-somos': 'Quem Somos - IBRC',
+        '/contato': 'Contato - IBRC'
+      };
 
+      function updateTitle() {
+        const path = window.location.pathname;
+        document.title = titles[path] || titles['/'];
+      }
+
+      const originalPushState = history.pushState;
+      history.pushState = function () {
+        originalPushState.apply(this, arguments);
+        updateTitle();
+      };
+
+      const originalReplaceState = history.replaceState;
+      history.replaceState = function () {
+        originalReplaceState.apply(this, arguments);
+        updateTitle();
+      };
+
+      window.addEventListener('popstate', updateTitle);
+      window.addEventListener('load', updateTitle);
+    })();
+  </script>
 </head>
 
 <body>
