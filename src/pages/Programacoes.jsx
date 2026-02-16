@@ -12,9 +12,9 @@ const Programacoes = () => {
     ];
 
     const slides = [
-        { src: "/img/slide_1.png", alt: "Programação 1" },
-        { src: "/img/WhatsApp Image 2024-06-28 at 15.08.15.jpeg", alt: "Programação 2" },
-        { src: "/img/WhatsApp Image 2024-06-28 at 15.08.16.jpeg", alt: "Programação 3" },
+        { src: "/img/slide 3.jpeg", alt: "Programação 1" },
+        { src: "/img/WhatsApp Image 2024-06-28 at 15.08.20 (1).jpeg", alt: "Programação 2" },
+        { src: "/img/WhatsApp Image 2024-06-28 at 15.08.16 (1).jpeg", alt: "Programação 3" },
         { src: "/img/WhatsApp Image 2024-06-28 at 15.08.17.jpeg", alt: "Programação 4" },
     ];
 
