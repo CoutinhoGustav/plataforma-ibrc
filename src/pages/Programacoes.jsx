@@ -20,7 +20,7 @@ const Programacoes = () => {
 
     const additionalSchedules = [
         { title: "Aulas de Flauta", day: "Domingo", time: "17H" },
-        { title: "União Masculina e Feminina", day: "Último Sábado do Mês", time: "19H" },
+        { title: "União Masculina e Feminina", day: "Último Sábado do mês", time: "19H" },
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
