@@ -30,11 +30,7 @@ const Home = () => {
                         <br /><br />
                         Programações: Quartas-Feiras às 20H, Sextas-Feiras às 19H30 e Domingo às 9H30 e 19H.
                     </p>
-                    <div className="flex justify-center md:justify-start md:ml-3">
-                        <button className="btn-primary px-10 py-4 text-xl">
-                            Saiba Mais
-                        </button>
-                    </div>
+                    
                 </div>
 
                 {/* Hero Carousel */}
