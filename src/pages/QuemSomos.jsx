@@ -30,19 +30,19 @@ const QuemSomos = () => {
 
                     <div className="text-lg md:text-xl space-y-8 text-justify leading-relaxed opacity-90 max-w-2xl">
                         <p className="font-medium text-lg leading-relaxed border-l-4 border-primary pl-6">
-                            A Igreja Batista Regular do Calvário do Distrito Federal tem raízes profundas na comunidade de Ceilândia.
+                            A Igreja Batista Regular do Calvário do Distrito Federal foi fundada na região adminstrativa de Ceilândia.
                         </p>
 
                         <p>
-                            Nossa caminhada começou em meados de 1984, fruto da dedicação e fé do irmão Juraci e sua família. As primeiras reuniões, simples e repletas de propósito, aconteciam nas salas das casas da vizinhança, unindo pessoas em oração e louvor.
+                            Essa caminhada começou em meados de 1984, fruto da edicação e fé do irmão Juraci e sua família. As primeiras reuniões, eram simples realizadas nas salas das casas na reigão, unindo pessoas em oração e louvor.
                         </p>
 
                         <div class="bg-gray-50 dark:bg-secondary/20 p-8 rounded-[30px]  border border-gray-100 border-[#C5A57D] shadow-sm transition-all hover:shadow-md">
                             <p className="italic font-medium text-secondary dark:text-primary mb-4 text-xl">
-                                "No ano de 1985, recebemos a benção de um terreno para fundarmos nossa sede acadêmica e espiritual."
+                                "No ano de 1985, recebemos a benção de um terreno para fundarmos a Igreja Batista Regular do Calvário."
                             </p>
                             <p className="text-sm opacity-70">
-                                Desde então, este local tornou-se um farol de esperança e ensino bíblico, realizando atividades para crianças, jovens e adultos, sempre comprometidos com a Palavra de Deus.
+                                Desde então, este local tornou-se um farol de esperança e ensino bíblico. Realizando atividades para crianças, jovens e adultos. Com o objetivo de compartilhamos a Palavra de Deus.
                             </p>
                         </div>
                     </div>
